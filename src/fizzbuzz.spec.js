@@ -20,6 +20,12 @@ describe("Sumar", () => {
   it("Deberia generar buzz para el numero 5", () => {
     expect(generarfizzbuzz(5)).toEqual("BUZZ");
   });
+
+  it("Deberia generar buzz para numeros multiplos de 5 como el 10", () => {
+    expect(generarfizzbuzz(10)).toEqual("BUZZ");
+  });
+
+  
 });
 
 
