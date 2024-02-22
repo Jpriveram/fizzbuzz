@@ -16,6 +16,10 @@ describe("Sumar", () => {
   it("Deberia generar fizz para numeros multiplos de 3 como el 6", () => {
     expect(generarfizzbuzz(6)).toEqual("FIZZ");
   });
+
+  it("Deberia generar buzz para el numero 5", () => {
+    expect(generarfizzbuzz(5)).toEqual("BUZZ");
+  });
 });
 
 
