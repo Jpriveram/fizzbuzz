@@ -1,4 +1,4 @@
-//import generarfizzbuzz from "./fizzbuzz.js";
+import generarfizzbuzz from "./fizzbuzz.js";
 
 describe("Sumar", () => {
   it("Deberia generar un numero sin regla como el 1", () => {
@@ -6,6 +6,4 @@ describe("Sumar", () => {
   });
 });
 
-function generarfizzbuzz(n){
-    return "1";
-}
+
