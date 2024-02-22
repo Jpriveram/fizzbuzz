@@ -1,4 +1,4 @@
 function generarfizzbuzz(n){
-    return "1";
+    return n + "";
 }
 export default generarfizzbuzz;
