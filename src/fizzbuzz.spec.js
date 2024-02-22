@@ -8,6 +8,10 @@ describe("Sumar", () => {
   it("Deberia generar otro numero sin regla como el 2", () => {
     expect(generarfizzbuzz(2)).toEqual("2");
   });
+
+  it("Deberia generar fizz para numero 3", () => {
+    expect(generarfizzbuzz(3)).toEqual("FIZZ");
+  });
 });
 
 
