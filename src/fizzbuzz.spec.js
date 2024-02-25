@@ -25,6 +25,15 @@ describe("Sumar", () => {
     expect(generarfizzbuzz(10)).toEqual("BUZZ");
   });
 
+  it("Deberia generar fizzbuzz para el numero 15", () => {
+    expect(generarfizzbuzz(15)).toEqual("FIZZBUZZ");
+  });
+
+  it("Deberia generar fizzbuzz para numeros multiplos de 3 y 5", () => {
+    expect(generarfizzbuzz(30)).toEqual("FIZZBUZZ");
+  });
+
+
   
 });
 
